@@ -1,0 +1,65 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	color: #951C49;
+
+}
+
+#header-nav, .collapse navbar-collapse, .nav navbar-nav{
+background-color: #FFFAFA;
+border-radius: 0;
+border: none;
+}
+#header-nav:active, .collapse navbar-collapse:active, .nav navbar-nav:active{
+
+border: none;
+}
+
+
+.navbar-brand> h1 {
+	margin-top: 7px;
+	font-family: 'Oxygen', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
+	font-size: 1.5em;
+	color: #951C49;
+	text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #223
+
+}
+
+#nav-list {
+  margin-top:0;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list{
+	-webkit-transition: border-bottom: 3s ease-in; /* Safari */
+    transition: border-bottom 3s ease-in;
+}
+
+#nav-list a:hover {
+  color: #F08080;
+  border-bottom: 2px solid #951C49;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #951C49;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header:hover .icon-bar:hover {
+	background-color: #CD5C5C;
+}
+
+.navbar-header button.navbar-toggle:focus, .navbar-header:focus .icon-bar:focus {
+	background-color: #CD5C5C;
+	
+}
+
+#content{
+	margin-top: 25px;
+	background-color:#FFE4E1;
+	box-shadow: 0 0 5px #BC8F8F;
+}
